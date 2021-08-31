@@ -838,7 +838,7 @@ module ZendeskAPI
   class TicketForm < Resource
     # TODO
     # post :clone
-    has_many :ticket_fields
+    has_many TicketField
   end
 
   class AppInstallation < Resource
